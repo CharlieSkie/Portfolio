@@ -5,6 +5,5 @@ function Home(){
             <p>Welcome to my portfolio website!</p>
         </div>
     )
-
 }
 export default Home;
