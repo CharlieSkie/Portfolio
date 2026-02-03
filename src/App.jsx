@@ -8,6 +8,7 @@ function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   return (
+    <>
     <div className="container">
       <TopNavbar toggleSidebar={() => setSidebarOpen(!sidebarOpen)} />
 
@@ -23,6 +24,7 @@ function App() {
         </main>
       </div>
     </div>
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
-function About(){
-    return(
+function About() {
+    return (
         <div>
             <h1>About Me</h1>
             <p>this is about</p>
